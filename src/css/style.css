@@ -1,0 +1,164 @@
+:root {
+    --color-background-body: hsl(233, 47%, 7%);
+    --color-background-card: hsl(244, 38%, 16%);
+    --color-background-accent: hsl(277, 64%, 61%);
+
+    --color-text-heading: hsl(0, 0%, 100%);
+    --color-text-paragraph: hsla(0, 0%, 100%, 0.75);
+    --color-text-heading-stat: hsla(0, 0%, 100%, 0.6);
+
+    --font-base: 'Lexend Deca', sans-serif;
+    --font-heading: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background-body);
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 97vh;
+    padding: 0;
+}
+
+.attribution {
+    color: var(--color-text-paragraph);
+}
+
+.base-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: var(--color-background-card);
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    height: 500px;
+    margin: 0 auto;
+    width: 330px;
+    height: 775px;
+    border-radius: 10px;
+}
+
+.card .box .box-content-header,
+.card .box .box-content-paragraph {
+    color: var(--color-text-heading);
+    font-family: var(--font-heading);
+    display: flex;
+    text-align: center;
+}
+
+.card .box .box-content-header {
+    padding: 20px 47px;
+}
+
+.card .box .box-content-header .box-text {
+    color: var(--color-background-accent);
+}
+
+.card .box .box-content-paragraph .paragraph {
+    color: var(--color-text-paragraph);
+    font-family: var(--font-base);
+    padding: 20px 30px;
+    line-height: 1.9;
+}
+
+.card .box .box-action {
+    color: var(--color-text-paragraph);
+    font-family: var(--font-heading);
+}
+
+.card .box .box-action .box-action-companies,
+.card .box .box-action .box-action-templates,
+.card .box .box-action .box-action-queries {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card .box .box-action .box-action-companies span,
+.card .box .box-action .box-action-templates span,
+.card .box .box-action .box-action-queries span {
+    color: var(--color-text-heading);
+    font-family: var(--font-heading);
+    margin: 9px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .card .box .box-img {
+        background-image: url('../images/image-header-mobile.jpg');
+        height: 240px;
+        width: 100%;
+        vertical-align: middle;
+        background-size: contain;
+        background-repeat: round;
+        overflow: hidden;
+        filter: contrast(140%) brightness(77%);
+        background-color: var(--color-background-accent);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        z-index: 2;
+    }
+
+    .card .box .box-img .box-layer .backdrop {
+        background-color: var(--color-background-accent);
+        height: 243px;
+        width: auto;
+        position: relative;
+        opacity: .6;
+        transition: all 0.3s ease-out;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .card .box .box-img {
+        background-image: url('../images/image-header-mobile.jpg');
+        height: 240px;
+        width: 100%;
+        vertical-align: middle;
+        background-size: contain;
+        background-repeat: round;
+        overflow: hidden;
+        filter: contrast(140%) brightness(77%);
+        background-color: var(--color-background-accent);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        z-index: 2;
+    }
+
+    .card .box .box-img .box-layer .backdrop {
+        background-color: var(--color-background-accent);
+        height: 243px;
+        width: auto;
+        position: relative;
+        opacity: .6;
+        transition: all 0.3s ease-out;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        z-index: 3;
+    }
+}
