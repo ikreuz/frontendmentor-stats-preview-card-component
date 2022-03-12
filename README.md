@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ikreuz](https://github.com/ikreuz/frontendmentor-stats-preview-card-component.git)
-- Live Site URL: [https://frontendmentor-stats-preview-card-component.vercel.app/](https://frontendmentor-stats-preview-card-component.vercel.app/)
+- Live Site URL: [https://frontendmentor-stats-preview-card-component-bncnm5eqn-ikreuz.vercel.app](https://frontendmentor-stats-preview-card-component-bncnm5eqn-ikreuz.vercel.app)
 
 ## My process
 
