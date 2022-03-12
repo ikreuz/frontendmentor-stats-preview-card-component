@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ikreuz](https://github.com/ikreuz/frontendmentor-stats-preview-card.git)
-- Live Site URL: [https://frontendmentor-stats-preview-card.vercel.app/](https://frontendmentor-stats-preview-card.vercel.app/)
+- Solution URL: [https://github.com/ikreuz](https://github.com/ikreuz/frontendmentor-stats-preview-card-component.git)
+- Live Site URL: [https://frontendmentor-stats-preview-card-component.vercel.app/](https://frontendmentor-stats-preview-card-component.vercel.app/)
 
 ## My process
 
